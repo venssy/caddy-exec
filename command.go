@@ -44,6 +44,9 @@ type Cmd struct {
 	// "startup" or "shutdown".
 	At []string `json:"at,omitempty"`
 
+	// Run command to execute before exec command
+	Run string `json:"run,omitempty"`
+
 	// Standard output log.
 	StdWriterRaw json.RawMessage `json:"log,omitempty" caddy:"namespace=caddy.logging.writers inline_key=output"`
 

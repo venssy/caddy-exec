@@ -34,6 +34,7 @@ func newCommandFromDispenser(d *caddyfile.Dispenser) (cmd Cmd, err error) {
 //	    pass_thru
 //	    startup
 //	    shutdown
+//	    run         <caddy handler>
 //	}
 func parseHandlerCaddyfileBlock(h httpcaddyfile.Helper) (caddyhttp.MiddlewareHandler, error) {
 	cmd, err := newCommandFromDispenser(h.Dispenser)
@@ -160,6 +161,11 @@ func (c *Cmd) unmarshalBlock(d *caddyfile.Dispenser) error {
 				return err
 			}
 			c.ErrWriterRaw = rawMessage
+		case "run":
+			if !d.NextArg() {
+				return d.ArgErr()
+			}
+			c.Run = d.Val()
 		default:
 			return d.Errf("'%s' not expected", d.Val())
 		}

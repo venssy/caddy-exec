@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1779618889803,
+  "projectRoot": "/config/project/caddy-exec",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Go",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "go.mod"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "go",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "master",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "README.md",
+      "accessCount": 19,
+      "lastAccessed": 1779626813750,
+      "type": "file"
+    },
+    {
+      "path": "middleware.go",
+      "accessCount": 10,
+      "lastAccessed": 1779626500198,
+      "type": "file"
+    },
+    {
+      "path": "caddyfile.go",
+      "accessCount": 6,
+      "lastAccessed": 1779622301702,
+      "type": "file"
+    },
+    {
+      "path": "command.go",
+      "accessCount": 5,
+      "lastAccessed": 1779626277928,
+      "type": "file"
+    },
+    {
+      "path": "app.go",
+      "accessCount": 1,
+      "lastAccessed": 1779622110395,
+      "type": "file"
+    },
+    {
+      "path": "run.go",
+      "accessCount": 1,
+      "lastAccessed": 1779622116344,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
