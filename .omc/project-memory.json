@@ -50,26 +50,26 @@
     },
     {
       "path": "middleware.go",
-      "accessCount": 10,
-      "lastAccessed": 1779626500198,
+      "accessCount": 13,
+      "lastAccessed": 1779640226973,
       "type": "file"
     },
     {
       "path": "caddyfile.go",
-      "accessCount": 6,
-      "lastAccessed": 1779622301702,
+      "accessCount": 7,
+      "lastAccessed": 1779637707281,
       "type": "file"
     },
     {
       "path": "command.go",
-      "accessCount": 5,
-      "lastAccessed": 1779626277928,
+      "accessCount": 6,
+      "lastAccessed": 1779637695488,
       "type": "file"
     },
     {
       "path": "",
-      "accessCount": 2,
-      "lastAccessed": 1779636104540,
+      "accessCount": 3,
+      "lastAccessed": 1779637213131,
       "type": "directory"
     },
     {
@@ -79,15 +79,15 @@
       "type": "file"
     },
     {
-      "path": "app.go",
-      "accessCount": 1,
-      "lastAccessed": 1779622110395,
+      "path": "run.go",
+      "accessCount": 2,
+      "lastAccessed": 1779637713462,
       "type": "file"
     },
     {
-      "path": "run.go",
-      "accessCount": 1,
-      "lastAccessed": 1779622116344,
+      "path": "app.go",
+      "accessCount": 2,
+      "lastAccessed": 1779637718607,
       "type": "file"
     }
   ],

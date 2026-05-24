@@ -63,7 +63,7 @@ func (m Middleware) ServeHTTP(w http.ResponseWriter, r *http.Request, next caddy
 		}
 
 		// Provision the run command
-		if err := runCmd.provision(r.Context().Value(caddy.ContextKey).(*caddy.Context), &m); err != nil {
+		if err := runCmd.provision(r.Context(), &m); err != nil {
 			m.log.Error("Failed to provision run command", zap.Error(err))
 		}
 
@@ -101,7 +101,7 @@ func (m Middleware) ServeHTTP(w http.ResponseWriter, r *http.Request, next caddy
 		}
 
 		// Provision the run command
-		if err := runCmd.provision(r.Context().Value(caddy.ContextKey).(*caddy.Context), &m); err != nil {
+		if err := runCmd.provision(r.Context(), &m); err != nil {
 			m.log.Error("Failed to provision second run command", zap.Error(err))
 		}
 
