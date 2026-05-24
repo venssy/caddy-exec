@@ -44,8 +44,8 @@
   "hotPaths": [
     {
       "path": "README.md",
-      "accessCount": 19,
-      "lastAccessed": 1779626813750,
+      "accessCount": 20,
+      "lastAccessed": 1779636021208,
       "type": "file"
     },
     {
@@ -64,6 +64,18 @@
       "path": "command.go",
       "accessCount": 5,
       "lastAccessed": 1779626277928,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 2,
+      "lastAccessed": 1779636104540,
+      "type": "directory"
+    },
+    {
+      "path": "go.mod",
+      "accessCount": 2,
+      "lastAccessed": 1779636166574,
       "type": "file"
     },
     {
